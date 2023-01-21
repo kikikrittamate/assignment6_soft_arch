@@ -53,7 +53,7 @@ function setupHandlers(app, messageChannel) {
 
     let videoPath = "./videos/SampleVideo_1280x720_1mb.mp4";
     if (req.query.id == 2) {
-      videoPath = "./videos/Tokyo.mp4";
+      videoPath = "./videos/video2.mp4";
     }
     fs.stat(videoPath, (err, stats) => {
       if (err) {
